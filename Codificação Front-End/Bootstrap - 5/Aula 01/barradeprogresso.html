@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Progressos</title>
+    <link rel="stylesheet" href="./Aula 01/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Aula 01/js/bootstrap.min.js">
+</head>
+<body>
+    <h3 class="m-3 text-center">Barra de Progressos</h3>
+    <hr>
+    <div class="alert alert-primary">
+        teste 01
+    </div>
+    <hr>
+    <div class="alert alert-secondary">
+        teste 02
+    </div>
+    <hr>
+    <div class="alert alert-danger">
+        teste 03
+    </div>
+    <hr>
+    <div class="alert alert-warning">
+        teste 04
+    </div>
+    <hr>
+    <div class="alert alert-info" role="alert">
+        teste 05 <a href="#" class="alert-link">Exemplo 01</a> de alerta de link
+    </div>
+    <div class="alert alert-danger" role="alert">
+        teste 06 <a href="#" class="alert-link">Exemplo 02</a> de alerta de link
+    </div>
+    <div class="alert alert-success" role="alert">
+        teste 07 <a href="#" class="alert-link">Exemplo 03</a> de alerta de link
+    </div>
+    <hr>
+    <h3 class="m-3 text-center text-decoration-underline">Conteúdo adicional alerta</h3>
+    <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">Bom Trabalho!</h4>
+        <p>Ah sim, você conseguiu ler com sucesso essa importante mensagem de alerta</p>
+        <hr>
+        <p class="mb-0">Sempre que precisar certifique-se de utilizar...</p>
+    </div>
+    <hr>
+    <h3 class="m-3 text-decoration-underline text-center">Barra de progresso</h3>
+   
+    <div class="progress" role="progressbar" aria-label="Exemplo" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" style="width: 0%"></div>
+    </div>
+    <br>
+    <div class="progress" role="progressbar" aria-label="Exemplo" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-danger" style="width: 25%"></div>
+    </div>
+    <br>
+    <div class="progress" role="progressbar" aria-label="Exemplo" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar  bg-warning" style="width: 50%"></div>
+    </div>
+    <br>
+    <div class="progress" role="progressbar" aria-label="Exemplo" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" style="width: 75%"></div>
+    </div>
+    <br>
+    <div class="progress" role="progressbar" aria-label="Exemplo" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-success" style="width: 100%"></div>
+    </div>
+    <br>
+    <h3 class="m-3 text-center text-decoration-underline">Dimensão da Barra de progressão</h3>
+    <div class="progress m-3" role="progressbar" aria-label="Exemplo" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-success w-75"></div>
+    </div>
+
+    <div class="progress m-3" role="progressbar" aria-label="Exemplo" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 3px;">
+        <div class="progress-bar" style="width: 50%;"></div>
+    </div>
+    <br>
+    <h3 class="m-3 text-center text-decoration-underline">Personalizando a Barra de Progresso</h3>
+    <div class="progress mb-3" role="progressbar" aria-label="exemplo" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped bg-warning" style="width: 50%;"></div>
+    </div>
+
+    <br>
+    <div class="progress mb-3" role="progressbar" aria-label="exemplo" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped" style="width: 75%;"></div>
+    </div>
+
+    <br>
+    <div class="progress mb-3" role="progressbar" aria-label="exemplo" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped bg-success" style="width: 100%;"></div>
+    </div>
+
+    <br>
+    <h3 class="m-3 text-center text-decoration-underline">Personalizando a Barra de Progresso com Animação</h3>
+    <div class="progress mb-3" role="progressbar" aria-label="exemplo" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success " style="width: 75%;"></div>
+    </div>    
+</body>
+</html>
