@@ -18,20 +18,24 @@
                     <img src="./img/image.png" alt="">
                 </div>
                 
-                <div class="login">
+                <form id="login" class="login">
                     <p class="title-login">Login</p>
                     <div class="inputs">
-                        <input class="email" id="email" type="text" name="E-mail" placeholder="E-mail">
-                        <input class="senha" id="senha" type="text" name="E-mail" placeholder="*******">
+                        <input class="email" id="email" type="email" name="E-mail" placeholder="E-mail" >
+                        <span class="spanEmail" id="spanEmail">Ex.:nome@nome.com</span>
+                       
+                        <input class="senha" id="senha" type="password" name="Senha" placeholder="Senha" >
+                        <span class="spanSenha" id="spanSenha">Ex.: a-z; A-Z; 0-9; (@, #, $, %, &)</span>
+                        
                         <button class="login-botton">Login</button>
                         <hr class="hr">
                     </div>
                         
                     <div class="fim-login">
-                        <p class="flogin">Ou enter com: </p>
+                        <p class="flogin">ou entre com </p>
                         <button class="button-github" id="button-github">Github</button>
                     </div>
-                </div>
+                </form>
 
             </div>
             <script src="./script.js"></script>
