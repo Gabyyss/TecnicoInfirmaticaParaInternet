@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo Locadora GN</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Revenda de veículos GN</h1>
+        <br>
+        <div class="inputs">
+            <label for="text" id="nameveiculo" class="nameveiculo">Nome do veículo</label>
+            <input type="text" class="nameveiculo" id="nameveiculo">
+
+            <label for="text" class="preco">R$ :</label>
+            <input type="number" class="preco" id="preco">
+
+            <button class="button" id="button" onclick="cover()">Ver promoção</button>
+        </div>
+
+        <div id="result">
+            <p id="resultado"></p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
