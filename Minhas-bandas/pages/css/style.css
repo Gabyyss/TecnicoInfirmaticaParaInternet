@@ -1,0 +1,89 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+
+    background-color: black;
+}
+
+.nome-banda{
+    margin-top: .7rem;
+    font-size: 2rem;
+
+    margin-top: 2rem;
+}
+
+.img-principal{
+    height: 300px;
+    width: 1000px;
+}
+
+.header-cont{
+    width: 1010px;
+}
+
+.sobre{
+    margin-top: 1rem;
+}
+
+.music-cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+
+    margin-top: 1rem;
+}
+
+.music-cont{
+    gap: 2rem;
+}
+
+.video-cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+
+    margin-top: 1rem;
+    gap: 1rem;
+    border: solid 2px white;
+    
+    background-color: #e9dfcc;
+   
+}
+
+.video-cont a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+    margin-top: 2rem;
+}
+
+.button-home{
+    width: 9rem;
+    height: 4rem;
+
+    border-radius: 15px;
+    background-color: #e9dfcc;
+
+    margin-left: 27rem;
+    margin-top: 1rem;
+}
+
+.button-home a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1.5rem;
+
+    background-color: #e9dfcc;
+}
