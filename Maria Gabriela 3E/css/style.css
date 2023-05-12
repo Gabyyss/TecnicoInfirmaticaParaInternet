@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.foto7{
+    width: 20rem;
+    height: 37.5em;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barrinha{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    margin-left: 2rem;   
+}
+
+.barrinha h1{
+    margin-right: 45rem;
+}
+
+
+
+
+.rodape{
+    background: black;
+    color: white;
+   
+    width: 80rem;
+
+    margin-left: 17.8rem;
+    margin-top: 1rem;
+}
+
+.rodape h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.rodape p{
+    font-weight: bold;
+
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+
+    padding-left: 2rem;
+}
+
+.rodape hr{
+    color: white;
+}
+
