@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(11, 0, 22);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+  
+}
+
+.photo{
+    background-image: url("./img/pessoa.jpg");
+    background-size: cover;
+    width: 30rem;
+    height: 40rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .6s;
+    transform-style: preserve-3d;
+}
+
+.photo:hover {
+    transform: rotateY(180deg);
+
+}
+
+.text{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.text1{
+    font-size: 1.5rem;
+}
+
+.content p{
+    font-size: 1.5rem;
+}
+
+.text1::after{
+    content: "";
+    display: block;
+    width: 6rem;
+    height: 0.2rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+
+    background-color: white;
+
+    margin-top: 1rem;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.button button{
+    background-color: transparent;
+    border: none;
+    border: 1px solid white;
+    width: 5rem;
+}
+
+.button button img{
+    width: 2rem;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
