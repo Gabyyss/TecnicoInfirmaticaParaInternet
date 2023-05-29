@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    height: 100vh;
+    min-width: 375px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    font-family: 'Hanken Grotesk', sans-serif;
+    background: #f1f1f1;
+}
+
+.container{
+    width: 20rem;
+    height: 30rem;
+    border-radius: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%)); 
+    color: white;
+}
+
+.result p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-bottom: 2rem;
+}
+
+.boll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10rem;
+    background-image: linear-gradient( hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.number{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.cont{
+    color: rgb(158, 136, 177);
+    font-weight: bold;
+}
+
+.great{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-top: 3rem;
+}
+
+.great-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.txt{
+    width: 14.5rem;
+    height: 7rem;
+
+    flex-wrap: wrap;
+    text-align: center;
+
+    padding-top: 2rem;
+    color: rgb(227, 208, 244);
+}
+
+.container02{
+    width: 20rem;
+    height: 30rem;
+    border-radius: 1.5rem;
+    gap: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+      
+    color: rgb(2, 2, 2);
+
+    box-shadow: 16px 16px 50px 1px rgba(14, 6, 247, 0.2);
+    
+}
+
+.title{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+
+    margin-right: 8rem;
+
+    align-self: flex-start;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.reaction{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 0.7rem;
+
+    background-color: rgb(244, 228, 228);
+    color: hsl(0, 100%, 67%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.reaction02{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 0.7rem;
+
+    background-color: hsl(39, 48%, 87%);
+    color: hsl(39, 100%, 56%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.reaction03{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 0.7rem;
+
+    background-color:  hsl(165, 50%, 91%);
+    color:  hsl(166, 100%, 37%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.reaction04{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 0.7rem;
+
+    background-color: hsl(234, 56%, 90%);
+    color: hsl(234, 85%, 45%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.input input{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 3rem;
+    border: none;
+    margin-top: 2rem;
+
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+.number-font{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number-font02{
+    color: black;
+    font-size: 15px;
+}
+
+.numeros{
+    display: flex;
+}
+
+.titulo{
+    display: flex;
+}
+
+
