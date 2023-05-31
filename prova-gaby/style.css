@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 30vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.nav-bar{
+    width: 30rem;
+    height: 3rem;
+    border: solid 1px black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar a{
+    text-decoration: none;
+}
+
+.photos{
+ background-color: #c6c6c6;
+ width: 100%;
+ height: 60rem;
+
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr;
+}
+
+.foto1 img{
+    width: 60rem;
+    height: 20rem;
+}
+
+.foto2 img{
+    width:35rem;
+    height: 55rem;
+}
+
+.foto3 img{
+    width:30rem;
+    height: 30rem;
+}
+
+.foto4 img{
+    width:30rem;
+    height: 30rem;
+}
+
+.primeiras{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr 1fr;
+
+    margin-left: 5rem;
+}
+
+.sla{
+    display: flex;
+    gap: 1rem;
+   margin-bottom: -12rem;
+}
+
+.rodape{
+    width: 120rem;
+    height: 20rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.dev{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.icons img{
+    width: 2rem;
+}
+
+.icons{
+    display: flex;
+    gap: 2rem;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.4rem;
+    width: 450px;
+    padding: 1.3rem;
+    min-height: 250px;
+    position: absolute;
+    top: 20%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 2rem;
+  }
+  
+  .modal .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .modal input {
+    padding: 0.7rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9em;
+  }
+  
+  .modal p {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 0.4rem 0 0.2rem;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.8rem 1.4rem;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+  
+    border-radius: 3rem;
+    text-align: center;
+    font-size: 1em;
+  }
+  
+  .btn-open {
+    position: absolute;
+    bottom: 150px;
+  }
+  
+  .btn-close {
+    transform: translate(10px, -20px);
+    padding: 0.5rem 0.7rem;
+    background: #eee;
+    border-radius: 50%;
+  }
+
+  #name{
+    width: 15rem;
+  }
+
+  #email{
+    width: 15rem;
+  }
